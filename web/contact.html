@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Premier TP</title>
+    <meta name="author" content="Agus Susanto">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/javascript.js"></script>
+  
+  </head>
+  <body>
+      <form action ="jsp/afficherContact.jsp" method = "post">
+      
+        <nav>
+            <h2>Agus Susanto</h2>
+                <ul>
+                <li><a href="#male">Accueil</a></li>
+                <li><a href="https://passeport.dauphine.fr" target="blank" accesskey="p">Passport Dauphine</a></li>
+                </ul>
+        </nav>
+
+        <div class = "img">
+            <img src="img/dauphinelogo.png" alt ="logo dauphine">
+        </div>
+   
+        
+        <P class="name">
+            <label for="fname" >First Name:</label>
+            <input type="text" id="fname" name="fname" value="Nom" maxlength="10">
+            <label for="lname">Middle name:</label>
+            <input type="text" id="mdname" name="mdname" value="" maxlength="10">
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" value="" maxlength="10">
+        </P>
+        <P class="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+        </P>
+        <P class ="contact">
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" value="">
+            <label for="email" class = "email">Email:</label>
+            <input type="text" id="email" name="email" value="">
+            <label for="contact">Contact ?</label>
+            <input type="checkbox" id="contact" name="contact" value="">
+        </P>
+        
+  
+        <div >
+        <input type="submit" value="Soumettre">
+        <input type="reset" value="Remettre à zéro">
+        <button type="button" onclick="changeValue('fname')">Appel javascript </button>
+        </div>
+    
+      </form>
+  </body>
+</html>
