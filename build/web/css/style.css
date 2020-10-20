@@ -1,0 +1,76 @@
+body {
+color : black;
+font-family : Arial;
+font-size: 12pt;
+padding : 20px 0 20px 15px;
+margin : auto;
+}
+
+nav h2 {
+color : #0475BA;
+padding : 20px 0 20px 15px;
+margin : 0;
+float : left;
+font-family : Arial;
+}
+
+nav {
+height : 70px;
+}
+
+nav ul {
+margin : 0;
+list-style : none;
+float : left;
+padding : 24px;
+}
+
+nav li {
+float : left;
+margin-left : 15px;
+}
+
+div label {
+font-weight : bold;
+max-width : 800px;
+margin : 0 auto;
+padding : 10px;
+}
+
+img {
+    width: 55%;
+    height:65%;
+    padding : 20px;
+}
+
+
+.img {
+width : 910px;
+height : 200px;
+border : blue solid 1px;
+}
+
+.email {
+color : red;
+}
+
+.name {
+width : 900px;
+height : 20px;
+padding : 5px 5px;
+border : blue solid 1px;
+}
+
+.gender {
+width : 900px;
+height : 20px;
+padding : 5px;
+border : blue solid 1px;
+}
+
+.contact {
+width : 900px;
+height : 20px;
+padding : 5px;
+border : blue solid 1px;
+}
